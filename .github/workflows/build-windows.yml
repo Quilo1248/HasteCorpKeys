@@ -1,7 +1,6 @@
 # .github/workflows/build-windows.yml
 name: Build Windows EXE
 
-# Manual trigger only
 on:
   workflow_dispatch:
 
@@ -37,7 +36,7 @@ jobs:
       run: move dist\StorePass.exe builds\windows\StorePass.exe
 
     - name: Upload Windows EXE artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: StorePass-Windows
         path: builds/windows/StorePass.exe
