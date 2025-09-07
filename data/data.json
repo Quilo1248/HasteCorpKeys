@@ -1,5 +1,6 @@
 {
-	"public_keys": {},
-	"revoked": []
+    "public_keys": {
+        "1": "jPsFdHmYxQbveHISR9evEV6zlZBmNSj8K7vMRuvXb1c="
+    },
+    "revoked": []
 }
-
