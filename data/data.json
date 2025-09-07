@@ -1,13 +1,6 @@
 {
     "public_keys": {
-        "1": "jPsFdHmYxQbveHISR9evEV6zlZBmNSj8K7vMRuvXb1c=",
-        "2": "/Mbt4+vsTIO6fj6qd6POcbV9GNEGKOcDnl1kAC8fGAY=",
-        "Xplode96 71": "IjKQERIaldPhnkcYSeLw0VKM26nsXn7a5qvz8NRad4E=",
-        "Quilo1248": "gatZ/4RsJJmhVp4hk3Rfep63MVLA8xq1lf+sHyiSm64="
+        "Quilo1248": "sh9aXwp32912fAnh36ubWwayb3CtRswAkplIF89TKbI="
     },
-    "revoked": [
-        "1",
-        "2",
-        "Xplode96 71"
-    ]
+    "revoked": []
 }
