@@ -25,22 +25,9 @@ jobs:
         pip install -r app/requirements.txt
         pip install pyinstaller
 
-    - name: Install UPX for compression
-      run: choco install upx -y
-
-    - name: Build EXE with PyInstaller (stripped & compressed)
+    - name: Build EXE with PyInstaller
       run: |
-        pyinstaller \
-          --onefile \
-          --noconsole \
-          --strip \
-          --upx \
-          --name StorePass \
-          --exclude-module test \
-          --exclude-module setuptools \
-          --exclude-module distutils \
-          --add-data "data\data.json;data" \
-          app\storepass.py
+        pyinstaller --onefile --noconsole --name StorePass --add-data "data\data.json;data" app\storepass.py
 
     - name: Create builds/windows folder
       run: mkdir -p builds/windows
