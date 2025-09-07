@@ -2,7 +2,8 @@
     "public_keys": {
         "Quilo1248": "sh9aXwp32912fAnh36ubWwayb3CtRswAkplIF89TKbI=",
         "15": "GlKY+7d7GXIW0qsy4sFPge7lyiuhj2gVn+d2dAWLh2k=",
-        "BobTest": "FzMaCfpEROD/tuw/3tUnLdfGdJ+Bkb9Ken/pDYyHwE4="
+        "BobTest": "FzMaCfpEROD/tuw/3tUnLdfGdJ+Bkb9Ken/pDYyHwE4=",
+        "Minion": "Yetfi6Sho7c4DTcKhZ4nUBoa+Afl2zh5FL/M1SCA+6I="
     },
     "revoked": [
         "Quilo1248",
