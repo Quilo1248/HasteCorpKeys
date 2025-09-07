@@ -1,6 +1,7 @@
 {
     "public_keys": {
-        "1": "jPsFdHmYxQbveHISR9evEV6zlZBmNSj8K7vMRuvXb1c="
+        "1": "jPsFdHmYxQbveHISR9evEV6zlZBmNSj8K7vMRuvXb1c=",
+        "2": "/Mbt4+vsTIO6fj6qd6POcbV9GNEGKOcDnl1kAC8fGAY="
     },
     "revoked": [
         "1"
