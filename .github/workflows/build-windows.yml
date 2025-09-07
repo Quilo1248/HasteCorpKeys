@@ -25,9 +25,20 @@ jobs:
         pip install -r app/requirements.txt
         pip install pyinstaller
 
-    - name: Build EXE with PyInstaller
+    - name: Build EXE with PyInstaller (stripped & optimized)
       run: |
-        pyinstaller --onefile --noconsole --name StorePass --add-data "data\data.json;data" app\storepass.py
+        pyinstaller \
+          --onefile \
+          --noconsole \
+          --name StorePass \
+          --strip \
+          --upx \
+          --exclude-module test \
+          --exclude-module setuptools \
+          --exclude-module distutils \
+          --exclude-module tkinter.test \
+          --add-data "data\data.json;data" \
+          app\storepass.py
 
     - name: Create builds/windows folder
       run: mkdir -p builds/windows
