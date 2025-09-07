@@ -1,6 +1,7 @@
 {
     "public_keys": {
-        "Quilo1248": "sh9aXwp32912fAnh36ubWwayb3CtRswAkplIF89TKbI="
+        "Quilo1248": "sh9aXwp32912fAnh36ubWwayb3CtRswAkplIF89TKbI=",
+        "15": "GlKY+7d7GXIW0qsy4sFPge7lyiuhj2gVn+d2dAWLh2k="
     },
     "revoked": [
         "Quilo1248"
